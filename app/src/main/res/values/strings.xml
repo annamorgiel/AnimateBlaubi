@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AnimateBlaubi</string>
+    <string name="open_new_layout">open new layout</string>
+    <string name="open_old_layout">open_old_layout</string>
+</resources>

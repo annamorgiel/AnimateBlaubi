@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+    <Transition
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:constraintSetEnd="@id/start"
+            app:constraintSetStart="@id/end">
+
+        <KeyFrameSet>
+            <KeyAttribute
+                    app:framePosition="0"
+                    app:target="@id/image">
+                <CustomAttribute
+                        app:attributeName="translationY"
+                        app:customDimension="0dp"/>
+            </KeyAttribute>
+
+            <KeyAttribute
+                    app:framePosition="75"
+                    app:target="@id/image">
+                <CustomAttribute
+                        app:attributeName="translationY"
+                        app:customDimension="55dp"/>
+            </KeyAttribute>
+
+            <KeyAttribute
+                    app:framePosition="75"
+                    app:target="@id/image">
+                <CustomAttribute
+                        app:attributeName="translationY"
+                        app:customDimension="55dp"/>
+                <CustomAttribute
+                        app:attributeName="layout_width"
+                        app:customDimension="155dp"/>
+            </KeyAttribute>
+
+            <KeyAttribute
+                    app:framePosition="75"
+                    app:target="@id/image">
+                <CustomAttribute
+                        app:attributeName="translationY"
+                        app:customDimension="55dp"/>
+            </KeyAttribute>
+
+        </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/expanded"/>
+    <ConstraintSet android:id="@+id/collapsed"/>
+</MotionScene>
