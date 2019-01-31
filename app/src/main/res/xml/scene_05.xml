@@ -25,7 +25,10 @@
                     app:target="@id/image">
                 <CustomAttribute
                         app:attributeName="Alpha"
-                        app:customFloatValue="0"/>
+                        app:customFloatValue=".7"/>
+                <CustomAttribute
+                        app:attributeName="Src"
+                        app:customColorDrawableValue="@color/colorPrimary"/>
             </KeyAttribute>
         </KeyFrameSet>
     </Transition>
